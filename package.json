@@ -8,7 +8,8 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "electron-forge publish"
+    "publish": "electron-forge publish",
+    "start-dev": "electron ."
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +23,9 @@
     "electron": "^22.2.0"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "mysql2": "^3.1.0",
+    "promise-mysql": "^5.2.0"
   }
 }
