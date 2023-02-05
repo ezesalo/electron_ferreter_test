@@ -4,11 +4,12 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'github-user-name',
-          name: 'github-repo-name',
+          owner: 'ezesalo',
+          name: 'electron_ferreter_test',
         },
         prerelease: false,
         draft: true,
+        authToken: process.env.GITHUB_TOKEN
       },
     },
   ],

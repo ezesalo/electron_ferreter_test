@@ -10,8 +10,6 @@ const createWindow = () => {
     },
   });
 
-  ipcMain.handle('ping', () => 'pong')
-
   win.loadFile('index.html');
 };
 
